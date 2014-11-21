@@ -5,6 +5,7 @@ Setup:
  - Setup a docker volume container
 
 	docker build -t theknarf/minecraft-dvc minecraft-dvc/
+
 	docker build -t theknarf/minecraft-server minecraft-server/
 	
 	docker run -it --name minecraft-dvc theknarf/minecraft-dvc
