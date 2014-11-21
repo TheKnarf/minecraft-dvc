@@ -14,6 +14,6 @@ Setup:
 
 	docker run -d --volumes-from minecraft-dvc -p 25565:25565 theknarf/minecraft-server
 
-# Setting up docker volume container with diffrent download link
+# Setting up docker volume container with different download link
 
 	docker run -it --name -e MINECRAFT_PATH=http://downloadpath theknarf/minecraft-dvc
