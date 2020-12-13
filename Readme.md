@@ -1,4 +1,4 @@
-#Minecraft docker
+# Minecraft docker
 
 Setup:
 
